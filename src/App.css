@@ -1,0 +1,24 @@
+html {
+  background-color: #121212;
+}
+
+.nav-btn{
+  position: relative;
+}
+
+.nav-btn::before{
+  transition: all .5s;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #021c1c;
+}
+
+.nav-btn:hover::before{
+  width: 100%;
+}

@@ -1,0 +1,150 @@
+export const DB = {
+  revenue: [
+    { type: "subscription", amount: 20000 },
+    { type: "advert", amount: 100000 },
+  ],
+  users: [
+    {
+      id: "jh234",
+      name: "Jon Jones",
+      lastStreamDate: "20-01-2024",
+    },
+    {
+      id: "j23434",
+      name: "Islam Makhachev",
+      lastStreamDate: "07-09-2024",
+    },
+    {
+      id: "rh837",
+      name: "Tom Aspinall",
+      lastStreamDate: "01-09-2024",
+    },
+    {
+      id: "j23434",
+      name: "Kamaru Usman",
+      lastStreamDate: "20-08-2024",
+    },
+    {
+      id: "wjev73",
+      name: "Israel Adesanya",
+      lastStreamDate: "06-09-2024",
+    },
+  ],
+  streams: [
+    {
+      title: "Faded",
+      artist: "Alan Walker",
+      date: "03-01-2024",
+      streamCount: 20,
+      userId: "jh234",
+    },
+    {
+      title: "random Song",
+      artist: "unknown artist",
+      date: "10-01-2024",
+      streamCount: 10,
+      userId: "jh234",
+    },
+
+    {
+      title: "Alone",
+      artist: "Alan Walker",
+      date: "29-08-2024",
+      streamCount: 10,
+      userId: "wjev73",
+    },
+    {
+      title: "Faded",
+      artist: "Alan Walker",
+      date: "29-08-2024",
+      streamCount: 20,
+      userId: "rh837",
+    },
+    {
+      title: "Blinding Lights",
+      artist: "The Weeknd",
+      date: "02-09-2024",
+      streamCount: 15,
+      userId: "wjev73",
+    },
+
+    
+    {
+      title: "Alone",
+      artist: "Alan Walker",
+      date: "29-08-2024",
+      streamCount: 10,
+      userId: "wjev73",
+    },
+    {
+      title: "Faded",
+      artist: "Alan Walker",
+      date: "29-08-2024",
+      streamCount: 20,
+      userId: "rh837",
+    },
+    {
+      title: "Blinding Lights",
+      artist: "The Weeknd",
+      date: "02-09-2024",
+      streamCount: 15,
+      userId: "wjev73",
+    },
+    {
+      title: "Am I wrong",
+      artist: "Niko & Vinz",
+      date: "20-08-2024",
+      streamCount: 30,
+      userId: "j23434",
+    },
+    {
+      title: "Beliver",
+      artist: "Imagine Dragons",
+      date: "01-09-2024",
+      streamCount: 20,
+      userId: "rh837",
+    },
+    {
+      title: "Beliver",
+      artist: "Imagine Dragons",
+      date: "01-08-2024",
+      streamCount: 100,
+      userId: "rh837",
+    },
+    {
+      title: "Lily",
+      artist: "Alan Walker",
+      date: "29-08-2024",
+      streamCount: 15,
+      userId: "wjev73",
+    },
+    {
+      title: "Demons",
+      artist: "Imagine Dragons",
+      date: "01-09-2024",
+      streamCount: 15,
+      userId: "rh837",
+    },
+    {
+      title: "Am I wrong",
+      artist: "Niko & Vinz",
+      date: "30-08-2024",
+      streamCount: 10,
+      userId: "rh837",
+    },
+  ],
+  userGrowthData:  [
+    {id: 1, users: 9, activeUsers: 8 },
+    {id: 2, users: 10, activeUsers: 9 },
+    {id: 3, users: 10, activeUsers: 7 },
+    {id: 4, users: 13, activeUsers: 9 },
+    {id: 5, users: 18, activeUsers: 12 },
+    {id: 6, users: 23, activeUsers: 20 },
+    {id: 7, users: 21, activeUsers: 18 },
+    {id: 8, users: 21, activeUsers: 13 },
+    {id: 9, users: 22, activeUsers: 16 },
+    {id: 10, users: 17, activeUsers: 12 },
+    {id: 11, users: 11, activeUsers: 8 },
+    {id: 12, users: 10, activeUsers: 9 },
+  ]
+};

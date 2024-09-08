@@ -45,7 +45,6 @@ export const DB = {
       streamCount: 10,
       userId: "jh234",
     },
-
     {
       title: "Alone",
       artist: "Alan Walker",
@@ -57,30 +56,7 @@ export const DB = {
       title: "Faded",
       artist: "Alan Walker",
       date: "29-08-2024",
-      streamCount: 20,
-      userId: "rh837",
-    },
-    {
-      title: "Blinding Lights",
-      artist: "The Weeknd",
-      date: "02-09-2024",
-      streamCount: 15,
-      userId: "wjev73",
-    },
-
-    
-    {
-      title: "Alone",
-      artist: "Alan Walker",
-      date: "29-08-2024",
-      streamCount: 10,
-      userId: "wjev73",
-    },
-    {
-      title: "Faded",
-      artist: "Alan Walker",
-      date: "29-08-2024",
-      streamCount: 20,
+      streamCount: 25,
       userId: "rh837",
     },
     {

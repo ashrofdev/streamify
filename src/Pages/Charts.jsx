@@ -4,7 +4,7 @@ import { AgCharts } from "ag-charts-react";
 
 import { DB } from "../DATABASE";
 import { getTopStreams } from "../utils";
-import { Box, Flex, Grid } from "@chakra-ui/react";
+import { Box, Grid } from "@chakra-ui/react";
 
 const Charts = () => {
   console.log(getTopStreams());
@@ -36,7 +36,7 @@ const Charts = () => {
     theme: myTheme,
     data: getTopStreams(),
     title: {
-      text: "Top 5 streamed music",
+      text: "Top 3-5 streamed music",
     },
     background: {
       visible: false,

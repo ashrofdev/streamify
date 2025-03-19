@@ -35,7 +35,7 @@ const StreamTable = () => {
         <Input
           variant='flushed'
           onChange={(e) => setFilter(e.target.value)}
-          borderColor={"#021c1c"}
+          borderColor={"#f4f4f4"}
           focusBorderColor='white'
           _placeholder={{ opacity: 0.5 }}
           p={2}
